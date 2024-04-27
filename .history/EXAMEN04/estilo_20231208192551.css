@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    background-color: #f3f1f1;
+    max-width: 1400px;
+}
+
+.azul {
+    background-color: rgb(145, 142, 142);
+    padding-bottom: 150px;
+}
+
+.lg {
+    float: left;
+    width: 8%;
+    height: 8%;
+    border-radius: 80px;
+    padding-top: 15px;
+}
+
+h1 {
+    color: white;
+    float: right;
+    font-family: arial;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 80px;
+    font-size: medium;
+    color: #9c2222;
+}
+
+.menu {
+    background-color: #f9f9fa;
+    height: 65px;
+}
+
+.menuOpciones {
+    padding-top: 12px;
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 40px;
+    font-size: x-large;
+}
+
+.menuOpciones a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    padding: 10px;
+}
+
+.menuOpciones a:hover {
+    color: #faf5f5;
+    background-color: #9c2222;
+}
+
+.contenedor_fondo {
+    width: 1350px;
+    height: 450px;
+    margin: auto;
+    background-image: url(imagenes/slide_foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lobit {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #9c2222;
+    font-size: xx-large;
+}
+
+.negro {
+    background-color: rgb(8, 8, 8);
+    padding-bottom: 30px;
+}
+
+.lg1 {
+    float: right;
+    width: 14%;
+    height: 14%;
+    border-radius: 150px;
+    padding-top: 50px;
+}
+
+h3 {
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    text-align: end;
+    padding-top: 40px;
+    padding-left: 30px;
+    color: yellow;
+}
+
+span {
+    color: white;
+}
+
+.rojo {
+    background-color: #9c2222;
+    height: 20px;
+}
+
+.anchito {
+    max-width: 1130px;
+    margin: auto;
+    border: 1px red solid;
+}
+
+h4 {
+    color: white;
+    background-color: #800000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.campos {
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px 0px;
+    margin-right: 15px;
+}
+
+.bloc {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.blocSoli {
+    display: inline-block;
+    margin-right: 145px;
+}
+
+.bloc1 {
+    display: inline-block;
+    margin-right: 125px;
+}
+
+.blocSoli1 {
+    display: inline-block;
+    margin-right: 225px;
+}
+
+.bloc2 {
+    display: inline-block;
+    margin-right: 175px;
+}
+
+textarea {
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.final {
+    text-align: center;
+    background-color: #800000;
+    color: white;
+    padding: 30px 0px;
+}

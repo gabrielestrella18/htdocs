@@ -1,0 +1,21 @@
+<?php
+include"conexion.php";
+$Nombre = $_POST["Nombre"];
+$Foto = $_POST["Foto"];
+$Apellido = $_POST["Apellido"];
+$Correo = $_POST["Correo"];
+$Celular = $_POST["Celular"];
+$Compañia = $_POST["Compañia"];
+$Parentesco = $_POST["Parentesco"];
+
+$insertar =  "INSERT INTO Contactos(Nombre, Apellido, Correo, Celular, Compañia, Parentesco) VALUES('$Nombre', '$Apellido', '$Correo', '$Celular', '$Compañia', '$Parentesco')";
+
+$consulta = mysqli_query($conectar, $insertar);
+
+if ($consulta){
+  echo '<script> alert("SEGUARDO CORRECTAMENTE LA INFORMACION");
+  location.href="inicio.php";</script>';
+}else{
+  echo  '<script> alert("NO SE GUARDO CORRECTAMENTE LA INFORMACION");
+  location.href="altacontactos.php";</script>';
+}

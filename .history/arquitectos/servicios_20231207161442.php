@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+  <body>
+  
+<div class="azul">
+  <img  class="lg"src="imagenes/arch.jpg" alt="">
+
+  <h1>ARCHITECTURE</h1>
+</div>
+
+<div class="menu">
+<div class="menuOpciones">
+            <a href="index.php" target="_blank">Inicio</a>
+            <a href="#" target="_blank">Servicios</a>
+            <a href="#" target="_blank">Proyectos Realizados</a>
+            <a href="#" target="_blank">Contactanos</a>
+            </div>
+            </div>
+            <br><br>
+            
+<div class="ser">
+<h3 class="serv">CONOCE NUESTROS SERVICIOS</h3>
+</div>
+<br> <br> <br>
+
+
+<div class="hogar">
+  
+</div>
+<p>PLANIFICA TU HOGAR</p>
+<img src="imagenes/planif.jpg" alt="">
+
+
+<p>CONSTRUYE TU HOGAR</p>
+<img src="imagenes/constru.jpg" alt="">
+
+<p>REMODELA TU HOGAR</p>
+<img src="imagenes/remodel.jpg" alt="">
+
+<p></p>
+
+<div class="azul">
+  <img  class="lg"src="imagenes/arch.jpg" alt="">
+
+  <h1>ARCHITECTURE</h1>
+</div>
+
+
+  </body>
+</html>

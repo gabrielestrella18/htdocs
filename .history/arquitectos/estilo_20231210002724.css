@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    background-color: #cccccc;
+    max-width: 1400px;
+}
+
+.azul {
+    background-color: blue;
+    padding-bottom: 120px;
+}
+
+.lg {
+    float: left;
+    width: 8%;
+    height: 8%;
+    border-radius: 80px;
+}
+
+h1 {
+    color: white;
+    float: right;
+    font-family: sans-serif;
+    text-align: end;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+
+.menu {
+    border: 1px #54b9ff solid;
+    background-color: #54b9ff;
+    height: 65px;
+}
+
+.menuOpciones {
+    padding-top: 12px;
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 40px;
+    font-size: x-large;
+}
+
+.menuOpciones a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.menuOpciones a:hover {
+    color: #373b39;
+    background-color: #0afc83;
+    padding-top: 16px;
+    padding-bottom: 21px;
+}
+
+.contenedor_fondo {
+    width: 1350px;
+    height: 600px;
+    margin: auto;
+    background-image: url(imagenes/fondoarq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textofoto {
+    color: rgb(7, 2, 2);
+    margin: auto;
+    text-align: center;
+    line-height: 35px;
+    padding-top: 200px;
+    font-size: x-large;
+}
+
+.video {
+    text-align: center;
+    background-color: #373b39;
+    border-radius: 100px;
+    width: 700px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.botoncito {
+    text-align: center;
+}
+
+.boton1 {
+    color: #ece80f;
+    background-color: #ce1111;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.serv {
+    background-color: #ece80f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.ser {
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+p {
+    font-weight: 400px;
+    font-size: xx-large;
+}
+
+.text {
+    text-align: center;
+}
+
+.caja1 {
+    float: left;
+    padding-left: 150px;
+    padding-top: 60px;
+}
+
+.caja2 {
+    float: right
+}
+
+.plan {
+    width: 70%;
+    height: 70%;
+}
+
+.rojo {
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+}
+
+.text {
+    color: black;
+    font-size: large;
+}
+
+.caja3 {
+    float: right;
+    padding-right: 200px;
+    padding-top: 120px;
+}
+
+.caja4 {
+    float: left;
+}
+
+.co {
+    padding-left: 100px;
+    width: 600px;
+    height: 320px;
+}
+
+.caja5 {
+    float: left;
+    padding-left: 150px;
+    padding-top: 60px;
+}
+
+.caja6 {
+    float: right;
+    padding-right: 200px;
+}
+
+.re {
+    width: 450px;
+    height: 300px;
+}
+
+.display {
+    display: inline-block;
+    width: 1350px;
+}
+
+.mira {
+    text-align: center;
+    display: inline-block;
+    width: 700px;
+}
+
+.ubica {
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.ubi {
+    width: 600px;
+    height: 300px;
+}
+
+.boton2 {
+    color: #ece80f;
+    background-color: #ce1111;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.rapi {
+    color: blue;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+    background-color: coral;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.cuadrado {
+    border: 4px #eaeaea solid;
+    background-color: #eaeaea;
+    padding: 6px 50px;
+}
+
+.campos {
+    border-radius: 20px;
+    border: 1px #999 solid;
+    padding: 7px;
+    width: 400px;
+    /* para que se separen */
+    margin-left: 20px;
+}
+
+.boton3 {
+    padding: 5px 10px;
+    margin-left: 35px;
+    color: #f0dbdb;
+    background-color: #ff5454;
+    border-radius: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boton3:hover {
+    background-color: #38065a;
+    color: white;
+}
+
+.boton4 {
+    padding: 5px 10px;
+    background-color: aqua;
+    border-radius: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boton4:hover {
+    background-color: #aaff0b;
+    color: white;
+}
+
+.centro {
+    text-align: center;
+}
+
+.contenedor2 {
+    width: 1350px;
+    height: 700px;
+    margin: auto;
+    background-image: url(imagenes/muchos.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

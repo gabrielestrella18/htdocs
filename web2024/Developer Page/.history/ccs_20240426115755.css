@@ -1,0 +1,104 @@
+/*Custom properties*/
+
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --tercero: orange;
+    --gris: #757575;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /*,*:before, *after{*/
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo span {
+    font-size: 2rem;
+    color: rgb(0, 247, 255);
+}
+
+.navegacion-principal {
+    background-color: var(--secundario);
+}
+
+.contenedor {
+    width: 120rem;
+    /*Una manera de poner los 4 márgenes en 4 propiedades
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: auto;*/
+    /*margin: 0 auto 0 auto: Tomando la sposiciones de un reloj*/
+    margin: 0 auto;
+    /*El primer valor corresponde a top-bottom
+      y el segundo valor corresponde a right-left*/
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    /*background-color: var(--primario);*/
+    text-decoration: none;
+    display: block;
+}
+
+
+/*p{
+      background-color: var(--secundario);
+      color: var(--blanco);
+  }colores para los parrafos */
+
+
+/*experimentos que hice/*
+  /*svg{
+    background-color: #757575; cambia el fondo de la imagen
+  }*/
+
+.navegacion-principal {
+    display: flex;
+    /* justify content es para filas
+      align-items es para columnas (flex-direction)*/
+    justify-content: space-evenly;
+    font-size: 2rem;
+    font-weight: bold;
+    /*negritas*/
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+
+/*Tamaños recomendados para media query
+  480px para móviles
+  768px para tablets
+  1140px para laptops
+  1400 para dispositivos más grandes como monitores o TVs*/
+
+body {
+    background-color: beige;
+}
+
+@media(min-width: 480px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media(min-width:768px) {
+    body {
+        background-color: cornflowerblue;
+    }
+}

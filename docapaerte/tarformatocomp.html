@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="formatocomp.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+  <div class="contenedor ancho">
+  <div>
+   <img class="tec" src="tarea_completa/imagenes/logotransparente.png" alt="">
+  </div>
+  <div class="formedit">
+  
+    <form action="loquesea.html" name="formulariocomentarios" method="get">
+      <fieldset class="form">
+
+            <b>*NOMBRE:</b> <input type="text" name="nombre" id="nombre" class="campos" required />   <b>APELLIDOS:</b> <input type="text" class="apellidos" placeholder="apellidos">   <b>SEXO:</b><input type="radio" name="genero" value="M">
+<label for="" class="genero">M</label>
+
+<input type="radio" name="genero" value="H">
+<label for="" class="genero">H</label>
+            <br> <br>
+
+            <b>FECHA DE NACIMIENTO:</b> <select class="dia" name="" id="">
+            <option value="petion0">dia</option>
+                <option value="peticion1">1</option>
+                <option value="peticion2">2</option>
+                <option value="peticion3">3</option>
+                <option value="peticion4">4</option>
+                <option value="peticion5">5</option>
+                 <option value="peticion6">6</option>
+                <option value="peticion7">7</option>
+                <option value="peticion8">8</option>
+                <option value="peticion9">9</option>
+                 <option value="peticion10">10</option>
+                <option value="peticion11">11</option>
+                <option value="peticion12">12</option>
+                <option value="peticion13">13</option>
+                 <option value="peticion14">14</option>
+                <option value="peticion15">15</option>
+                <option value="peticion16">16</option>
+                <option value="peticion17">17</option>
+                 <option value="peticion18">18</option>
+                <option value="peticion19">19</option>
+                <option value="peticion20">20</option>
+                <option value="peticion21">21</option>
+                 <option value="peticion22">22</option>
+                <option value="peticion23">23</option>
+                <option value="peticion24">24</option>
+                <option value="peticion25">25</option>
+                 <option value="peticion26">26</option>
+                <option value="peticion27">27</option>
+                <option value="peticion28">28</option>
+                <option value="peticion29">29</option>
+                 <option value="peticion30">30</option>
+                <option value="peticion31">31</option>
+               
+            </select>
+
+            <select class="mes" name="" id="">
+            <option value="peticion0">mes</option>
+                 <option value="peticion1">ENERO</option>
+                <option value="peticion2">FEBRERO</option>
+                <option value="peticion3">MARZO</option>
+                <option value="peticion4">ABRIL</option>
+                <option value="peticion5">MAYO</option>
+                 <option value="peticion6">JUNIO</option>
+                <option value="peticion7">JULIO</option>
+                <option value="peticion8">AGOSTO</option>
+                <option value="peticion9">SEPTIEMBRE</option>
+                 <option value="peticion10">OCTUBRE</option>
+                <option value="peticion11">NOVIEMBRE</option>
+                <option value="peticion12">DICIEMBRE</option>
+            </select>
+
+            <select class="anioo" name="" id="">
+            <option value="petion0">año</option>
+                <option value="peticion1">1993</option>
+                <option value="peticion2">1994</option>
+                <option value="peticion3">1995</option>
+                <option value="peticion4">1996</option>
+                <option value="peticion5">1997</option>
+                 <option value="peticion6">1998</option>
+                <option value="peticion7">1999</option>
+                <option value="peticion8">2000</option>
+                <option value="peticion9">2001</option>
+                 <option value="peticion10">2002</option>
+                <option value="peticion11">2003</option>
+                <option value="peticion12">2004</option>
+                <option value="peticion13">2005</option>
+                 <option value="peticion14">2006</option>
+                <option value="peticion15">2007</option>
+                <option value="peticion16">2008</option>
+                <option value="peticion17">2009</option>
+                 <option value="peticion18">2010</option>
+                <option value="peticion19">2011</option>
+                <option value="peticion20">2012</option>
+                <option value="peticion21">2013</option>
+                 <option value="peticion22">2014</option>
+                <option value="peticion23">2015</option>
+                <option value="peticion24">2016</option>
+                <option value="peticion25">2017</option>
+                 <option value="peticion26">2018</option>
+                <option value="peticion27">2019</option>
+                <option value="peticion28">2020</option>
+                <option value="peticion29">2021</option>
+                 <option value="peticion30">2022</option>
+                <option value="peticion31">2023</option>
+</select>
+            
+            <button id="btn_validar" class="boton" type="button">Enviar</button>
+
+    <script type="text/javascript">
+
+		$("#btn_validar").click(function () {
+
+			// validacion nombre
+			if ($("#nombre").val().trim() == '') {
+				alert("Escribe tu nombre ");
+				$("#nombre").focus();
+				return 0;
+			}
+      document.formulariocomentarios.submit();
+
+		});
+
+	</script>
+          
+        </fieldset>
+
+    </form>
+  </div>
+  
+
+    
+  </div>
+   
+  <div class="menu">
+    
+
+    <div class="menuOpciones">
+            <a href="#" target="_blank">Inicio</a>
+            <a href="#" target="_blank">Requisitos</a>
+            <a href="#" target="_blank">Materias</a>
+            <a href="#" target="_blank">Organigramas</a>
+            <a href="#" target="_blank">instalaciones</a>
+            <a href="#" target="_blank">Inscripcion</a>
+            <a href="#" target="_blank">Contactos</a>
+          
+            </div>
+
+  </div>
+<br>
+<div class="fondo">
+  <img class= "slide" src="tarea_completa/imagenes/fotoslide.jpg" alt="">
+</div>
+
+<br>
+
+<div class="cajas">
+
+  <div class="caja1">
+<img class="caj1" src="tarea_completa/imagenes/engrane.png" alt="">
+  <h2 class="text">UNIVERSIDAD <br><br> DE PRESTIGIO</h2>
+</div>
+  
+<div class="caja2">
+<img class= "caj2"src="tarea_completa/imagenes/engrane.png" alt="">
+<h2>DOCENTES</h2>
+</div>
+
+  <div class="caja3">
+<img class="caj3" src="tarea_completa/imagenes/engrane.png" alt="">
+  <h2>INSTALACIONES</h2>
+</div>
+
+
+</div>
+
+
+<br>
+<div class="fotos">
+  <div class="univ">
+    <img src="tarea_completa/imagenes/foto1.jpg" alt="">
+    <br><br>
+    <p>Puede que despues de tu carrera quieras <br>
+    estudiar una maestria o un doctorado que <br>te permita especializarte. hay oportunidades <br> muy interesantes para estudiar con buenas <br> becas en el extranjero.</p>
+  </div>
+
+<div class="docen">
+    <img src="tarea_completa/imagenes/foto2.jpg" alt="">
+    <br><br>
+    <p>as amet recusandae quidem culpa, sint mol <br> molestiae doloribus libero cum, maxime<br>  assumenda laudantium numquam illum. <br>Veniam, vel reprehenderit! Lorem ipsum <br> dolor sit amet consectetur, adipisicing elit. <br>Voluptatem soluta saepe ut pariatur.</p>
+  </div>
+
+<div class="inst">
+    <img src="tarea_completa/imagenes/instalaciones1.jpg" alt="">
+    <img src="tarea_completa/imagenes/instalaciones2.jpg" alt="">
+    <img src="tarea_completa/imagenes/instalaciones3.jpg" alt="">
+  </div>
+
+</div>
+<br><br><br>
+<div class="ultimos">
+<div class="perf" >
+  <h4>Perfil Egresado</h4>
+  <br>
+  <img class="vin" src="tarea_completa/imagenes/vineta1.jpg" alt="">
+  <p class="molde">desarrollar, implementar y administrar software de sistemas o aplicacion que cumpla con los estandares de calidad con el fin de apoyar la productividad y competitividad de las organizaciones.</p>
+  <br>
+
+  <img class="vin" src="tarea_completa/imagenes/vineta1.jpg" alt=""><p class="molde">seleccionar y aplicar herramientas matematicas para el modelo , diseño y desarrollo de tecnologia computacional.</p>
+<br>
+
+<img class="vin" src="tarea_completa/imagenes/vineta1.jpg" alt=""><p class="molde">Integrar diversas soluciones computacionales que requieran el uso de diferentes tecnologias, plataformas o dispositivos.</p>
+<br>
+
+<img class="vin" src="tarea_completa/imagenes/vineta1.jpg" alt=""><p class="molde" >Diseñar, desarrollar y administrar base de datos conforme a requerimientos definidos, normas y organizaciones  de manejo y seguridad  de la informacion utilizando tecnolgias emergentes.</p>
+<br>
+
+
+</div>
+
+
+ <div class="campo">
+ <h5>CAMPO DE TRABAJO</h5>
+ <br><br><br>
+ <p class="camp" >Empresas y organismos en todos los <br>campos de la actividad economica,<br> gubernamental y de educacion,      en <br> donde se ppueden optimizar los <br>procesos al automotizar el manejo de <br>la informacion de las empresas </p>
+ <br>
+ 
+ <button  class="boton2" type="button">Ver mas</button>
+  <br>
+  <br>
+ </div>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <div class="conten_3">
+    <div class="info">
+      <p class="itm" >INSTITUTO TECNOLOGICO DE MERIDA</p>
+      <br><br>
+      <P>av. tecnologico Km. 4.5 S/N C.P.97118</P>
+      <br><br>
+      <p>Preguntas y comentarios: <br> <a href="mailto:www@itmerida.mx">www@itmerida.mx</a></p>
+      <br>
+      <a href="tel:+9999645000">Tel:(999)964-5000, 964-5001</a>
+
+  </div>
+ <div class="mapi">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14898.0199824681!2d-89.6221622!3d21.0124706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a65077d641%3A0x39dfe74777312656!2sTecNM%20-%20Campus%20M%C3%A9rida!5e0!3m2!1ses-419!2smx!4v1681704289256!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+    <div class="nomb">
+      <img src="tarea_completa/imagenes/logotransparente.png" alt="">
+      <br><p>Gabriel Arcangel Estrella Canul</p><br>
+      <p>programacion web </p><br>
+     <p> 7sB </p>
+</div>
+
+
+
+</div>
+
+
+
+
+  </body>
+</html>

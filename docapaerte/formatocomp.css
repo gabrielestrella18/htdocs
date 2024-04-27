@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 1300px;
+    margin: auto;
+    background-color: rgb(226, 226, 226);
+}
+
+.contenedor {
+    background-color: #f0f4f5f5;
+    padding: 15px;
+    height: 160px;
+}
+
+.tec {
+    float: left;
+    padding-left: 100px;
+}
+
+.formedit {
+    width: 700px;
+    float: right;
+}
+
+.form {
+    background-color: rgb(253, 252, 249);
+    font-size: medium;
+    height: 100px;
+    top: 500px;
+    border: #54b9ff;
+}
+
+.boton {
+    background-color: #ccc900;
+    color: white;
+    border: #09dbf7;
+    font-size: medium;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #f8f8fa;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.menuOpciones {
+    margin-top: 5px;
+    width: 1300px;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.menuOpciones a {
+    text-decoration: none;
+    color: rgb(17, 4, 4);
+    padding: 10px;
+}
+
+.menuOpciones a:hover {
+    color: #fcf7f7;
+    background-color: #69050e;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 22px;
+}
+
+.slide {
+    width: 1320px;
+}
+
+.text {
+    color: #69050e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.cajas {
+    width: 1300px;
+}
+
+.caja1 {
+    width: 430px;
+    display: inline-block;
+}
+
+.caja2 {
+    width: 430px;
+    display: inline-block;
+}
+
+.caja3 {
+    width: 430px;
+    display: inline-block;
+}
+
+.caj1 {
+    width: 50px;
+    float: inline-start;
+}
+
+.caj2 {
+    width: 50px;
+    float: left;
+}
+
+.caj3 {
+    width: 50px;
+    float: left;
+}
+
+.fotos {
+    width: 1300px;
+    display: inline-block;
+}
+
+.univ {
+    width: 430px;
+    display: inline-block;
+}
+
+.docen {
+    width: 430px;
+    display: inline-block;
+}
+
+.inst {
+    width: 430px;
+    display: inline-block;
+}
+
+.ultimos {
+    width: 1300px;
+}
+
+h4 {
+    font-size: xx-large;
+    color: black solid;
+}
+
+.perf {
+    width: 650px;
+    float: left;
+}
+
+.vin {
+    float: left;
+    padding-left: 20px
+}
+
+.molde {
+    text-align: center;
+}
+
+.campo {
+    width: 380px;
+    padding-top: 50px;
+    background: rgb(104, 9, 9);
+    border-radius: 15px;
+    padding-left: 10px;
+    float: right;
+}
+
+h5 {
+    color: rgb(252, 196, 12);
+    font-size: xx-large;
+}
+
+.camp {
+    color: white;
+    font-size: large;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.boton2 {
+    background-color: #ccc900;
+    color: white;
+    border: #09dbf7;
+    font-size: medium;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.itm {
+    color: rgb(236, 221, 0);
+    font-size: large;
+}
+
+.conten_3 {
+    background-color: #101518;
+}
+
+.info {
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    vertical-align: top;
+}
+
+.nomb {
+    vertical-align: top;
+    padding: 35px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.mapi {
+    vertical-align: top;
+    padding: 35px;
+    display: inline-block;
+}

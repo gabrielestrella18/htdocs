@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+  <body>
+  
+<?php 
+
+include  "arriba.php"
+?>
+
+<?php 
+include "menu.php"
+?>
+<
+<br><br>
+
+<h5>BIENVENIDO!</h5>
+<br><br><br>
+
+<h2>FORMULARIO DE ALTA DE PROMOCIONES</h2>
+        <br>
+        <P>Titulo del prodructo: </P>
+<div>
+  <input type="text" name="descripcion" id="descripcion" required />
+  <br><br>
+</div>
+
+<p>Subir producto: <input type="file" name="imagen"/> </p>
+<br>
+
+<div>
+<button type="submit" name="guardarfoto" id="guardarfoto">Guardar Foto</button>
+
+</div>
+
+<br><br>
+
+      </Form>
+      </div>
+      <br>
+<div class="alinear" >
+  <a href="mostrar-solo-datos.php" id="mostrar">MOSTRAR FOTOS</a>
+</div>
+
+
+    </div>
+
+
+<?php 
+include "abajo.php"
+?>
+
+
+  </body>
+</html>

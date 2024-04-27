@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    background-color: #cccccc;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.lg {
+    float: left;
+    width: 10%;
+    height: 10%;
+    border-radius: 80px;
+}
+
+h1 {
+    color: white;
+    float: right;
+}
