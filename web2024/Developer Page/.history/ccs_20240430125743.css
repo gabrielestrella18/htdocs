@@ -26,8 +26,7 @@ html {
 
 body {
     font-size: 16px;
-    font-family: 'krub', sans-serif;
-    background-image: linear-gradient(to top, var(--gris)0%, var(--blanco) 100%);
+    background-image: linear-gradient(to top, var(--gris)=%, var(var(--blanco) 100%);
 }
 
 h1 {
@@ -42,9 +41,7 @@ h3 {
     font-size: 1.8rem;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -159,8 +156,7 @@ h3 {
     justify-content: center;
 }
 
-.contenedor-hero p,
-.contenedor-hero h2 {
+.contenedor-hero p, .contenedor-hero h2 {
     color: var(--blanco);
 }
 
@@ -191,15 +187,4 @@ h3 {
     /*Ancho del boton*/
     text-align: center;
     /*Centrar el texto del botón*/
-}
-
-.sombra {
-    box-shadow: 0px 5px 5px 0px rgba(112, 112, 112, 0.48);
-    /*Google chrome*/
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(112, 112, 112, 0.48);
-    /*Mozila*/
-    -moz-box-shadow: 0px 5px 5px 0px rgba(112, 112, 112, 0.48);
-    background-color: var(--blanco);
-    padding: 2rem;
-    border-radius: 50px;
 }
