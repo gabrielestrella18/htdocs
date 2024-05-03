@@ -235,12 +235,6 @@ h3 {
     line-height: 2;
 }
 
-.servicio .iconos {
-    height: 15rem;
-    width: 15rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: var(--primario);
-    border-radius: 100%;
+.iconos {
+    background-color: #ffc107;
 }
