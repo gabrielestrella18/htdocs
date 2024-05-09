@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    /*Que no haya margin y padding que da el navegador default para que nosotros lo manipulemos más adelante*/
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    /*Para que el header ocupe todo el ancho de la pantalla*/
+    height: 60px;
+}
+
+header nav.nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    /* Para quitar los puntos de la lista */
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
