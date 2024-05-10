@@ -137,7 +137,7 @@ Tamaños recomendados para media query
 */
 
 .hero {
-    background-image: url(img/hero.jpg);
+    background-image: url(../image/hero.jpg);
     /* ../ es para regresar un nivel del directorio, 
 la carpeta img está afuera de styles.ccs*/
     background-repeat: no-repeat;
