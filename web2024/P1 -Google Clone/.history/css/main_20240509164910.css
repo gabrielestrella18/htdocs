@@ -13,6 +13,9 @@ header {
     height: 60px;
 }
 
+
+/*Busca una etiqueta nav que esté dentro de la etiqueta header*/
+
 header nav {
     display: flex;
     justify-content: flex-end;

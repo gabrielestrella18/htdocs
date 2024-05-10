@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    /*Que no haya margin y padding que da el navegador default para que 
-  nosotros lo manipulemos más adelante*/
+    /*Que no haya margin y padding que da el navegador default para que nosotros lo manipulemos más adelante*/
     padding: 0;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,13 +12,8 @@ header {
     height: 60px;
 }
 
-header nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
 header nav .nav-right-section {
-    width: 250px;
+    width: 2300px;
     height: auto;
     display: flex;
     list-style: none;
@@ -28,7 +22,7 @@ header nav .nav-right-section {
     align-items: center;
 }
 
-nav .nav-right-section a {
+nav.nav-right-section a {
     margin-right: 10px;
     color: #000000;
 }
@@ -43,11 +37,11 @@ nav .nav-right-section .menu-icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 25px;
+    width: 300px;
     height: 25px;
 }
 
-nav .nav-right-section img {
+.nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
 }
@@ -57,40 +51,40 @@ main {
     text-align: center;
 }
 
-main .main-logo {
+.logo {
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
 
-main .main-logo img {
+.main-logo img {
     height: 92px;
     width: 272px;
 }
 
-main .main-input {
+.main-input {
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
 
-main .main-input-container {
+.main-input-container {
     width: 525px;
     border-radius: 100px;
-    border: 1px solid #dfe1e5;
+    border: 1pxsolid#dfe1e5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main .main-input input {
+.main-input input {
     width: 450px;
     height: 40px;
     border: none;
     outline: none;
 }
 
-main .main-input .search-icon {
+.main-input.search-icon {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -99,7 +93,7 @@ main .main-input .search-icon {
     height: 18px;
 }
 
-main .main-input .micro-icon {
+.main-input.micro-icon {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -109,16 +103,16 @@ main .main-input .micro-icon {
     cursor: pointer;
 }
 
-main .main-buttons {
+.main-buttons {
     width: 530px;
     margin: 0 auto;
 }
 
-main .main-buttons div {
+.main-buttons div {
     display: inline-block;
 }
 
-main .main-buttons button {
+.main-buttons {
     height: 36px;
     background-color: #f2f2f2;
     border: 0;
@@ -129,8 +123,8 @@ main .main-buttons button {
     margin-right: 15px;
 }
 
-main .main-buttons button:hover {
-    border: 1px solid#c6c6c6;
-    box-shadow: 0 1px 1px#000001;
+.main-buttons button:hover {
+    border: 1pxsolid#c6c6c6;
+    box-shadow: 01px1px#000001;
     color: #222;
 }
