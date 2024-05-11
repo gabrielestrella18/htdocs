@@ -52,12 +52,7 @@ h3 {
 }
 
 .titulo {
-    font-size: xx-large;
-}
-
-span {
-    color: var(--gris);
-    font-size: large;
+    font-size: 2rem;
 }
 
 
@@ -180,26 +175,6 @@ relative*/
 .ubicacion {
     display: flex;
     align-items: flex-end;
-}
-
-.iconito {
-    display: inline-block;
-    width: 450px;
-    height: 80px;
-    padding-left: 350px;
-}
-
-.centro1 {
-    display: inline-block;
-    width: 1000px;
-    height: 80px;
-}
-
-.mer {
-    display: inline-block;
-    width: 200px;
-    height: 80px;
-    font-size: large;
 }
 
 .boton {

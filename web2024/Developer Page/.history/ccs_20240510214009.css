@@ -182,7 +182,8 @@ relative*/
     align-items: flex-end;
 }
 
-.iconito {
+
+/*.icon {
     display: inline-block;
     width: 450px;
     height: 80px;
@@ -200,7 +201,7 @@ relative*/
     width: 200px;
     height: 80px;
     font-size: large;
-}
+}*/
 
 .boton {
     background-color: var(--secundario);

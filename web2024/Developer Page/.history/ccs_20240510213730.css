@@ -182,7 +182,7 @@ relative*/
     align-items: flex-end;
 }
 
-.iconito {
+.icon {
     display: inline-block;
     width: 450px;
     height: 80px;
@@ -191,15 +191,8 @@ relative*/
 
 .centro1 {
     display: inline-block;
-    width: 1000px;
+    width: 2000px;
     height: 80px;
-}
-
-.mer {
-    display: inline-block;
-    width: 200px;
-    height: 80px;
-    font-size: large;
 }
 
 .boton {

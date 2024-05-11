@@ -182,14 +182,8 @@ relative*/
     align-items: flex-end;
 }
 
-.iconito {
-    display: inline-block;
-    width: 450px;
-    height: 80px;
-    padding-left: 350px;
-}
 
-.centro1 {
+/*.centro1 {
     display: inline-block;
     width: 1000px;
     height: 80px;
@@ -200,7 +194,7 @@ relative*/
     width: 200px;
     height: 80px;
     font-size: large;
-}
+}*/
 
 .boton {
     background-color: var(--secundario);
