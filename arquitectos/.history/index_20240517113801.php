@@ -34,15 +34,7 @@ include "menu.php"
 
 <br> <br> <br>
 
-<div class="contenedor2">
-<br><br>
-<div class="ser">
-<h3 class="serv">CONTACTANOS</h3>
-</div>
-<br><br><br>
-
-
-    <div class="form">
+<div class="form">
         <form  class="centro" action="altacontactos.php" method="post">
           <label for="" class="cuadrado">Nombre:</label>
           <input type="text" name="Nombre" class="campos" required><br><br>

@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    /*Que no haya margin y padding que da el navegador default para que nosotros lo manipulemos más adelante*/
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    /*Para que el header ocupe todo el ancho de la pantalla*/
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}

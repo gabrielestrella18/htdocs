@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+    /*Que no haya margin y padding que da el navegador default para que nosotros lo manipulemos más adelante*/
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
