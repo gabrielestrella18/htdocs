@@ -87,19 +87,21 @@ main .main-input-container {
 
 main .main-input input {
     width: 450px;
-    height: 40px;
+    height: 80px;
     border: none;
     outline: none;
-    background-color: WHITE;
+    background-color: transparent;
 }
 
 main .main-input .search-icon {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-image: url(../img/pokebola.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
 main .main-input .micro-icon {

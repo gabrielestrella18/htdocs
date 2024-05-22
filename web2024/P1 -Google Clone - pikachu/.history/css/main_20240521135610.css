@@ -90,7 +90,7 @@ main .main-input input {
     height: 40px;
     border: none;
     outline: none;
-    background-color: WHITE;
+    background-color: transparent;
 }
 
 main .main-input .search-icon {
