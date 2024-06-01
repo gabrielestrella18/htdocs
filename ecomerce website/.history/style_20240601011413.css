@@ -37,3 +37,24 @@ section {
     margin: auto;
     width: 100%;
 }
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+#menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--main-color);
+}
