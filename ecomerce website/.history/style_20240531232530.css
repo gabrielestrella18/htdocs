@@ -1,0 +1,13 @@
+/*/google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+* {
+    font-family: "Big Shoulders Text", sans-serif;
+}
+
+:root {
+    --main-color: #273fa1;
+    --text-color: #000;
+    --ng-color: #fff;
+    --container-color: #1e1e2a;
+}
