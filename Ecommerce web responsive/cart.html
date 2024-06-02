@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommerce Website</title>
+    <title>Carrito</title>
     <!-- Link To CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Box Icons -->
@@ -25,15 +25,20 @@
         </a>
       </div>
     </header>
-
-    <section class="home" id="home">
-      <div class="home-img container">
-        <img src="images/home.png" alt="">
-      </div>
-    </section>
-    <section class="products container" id="products">
-      <h2 class="heading">Descrubre los productos</h2>
-      <div class="product-container" id="productList">
+    <section class="cart-container container">
+      <a href="index.html" class="back-homepage">
+        <i class='bx bx-chevron-left'></i>
+        <span>Volver al inicio</span>
+      </a>
+      <h2 class="cart-s-title">Carrito de compras</h2>
+      <div class="cart-box">
+        <div class="cart-data">
+          <div id="cartItems"></div>
+        </div>
+        <div class="cart-t">
+          <div id="cartTotal"></div>
+          <a href="#" class="checkout btn">Verificar</a>
+        </div>
       </div>
     </section>
     <script src="js/main.js"></script>
