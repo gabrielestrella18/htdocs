@@ -1,0 +1,386 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+}
+
+select,
+button {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Container for plans */
+
+.plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* Individual plan card */
+
+.plan-card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.plan-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.plan-card .highlight {
+    font-size: 1rem;
+    color: #ffd700;
+    margin: 10px 0;
+}
+
+.plan-card ul {
+    list-style: none;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.plan-card ul li {
+    margin: 8px 0;
+    font-size: 0.9rem;
+}
+
+.plan-card a {
+    display: block;
+    margin: 15px 0;
+    color: #1e90ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.price-section {
+    background-color: #0d0d0d;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.previous-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.current-price {
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Colors for different plans */
+
+.plan-card.experto {
+    border-top: 5px solid #ffa500;
+}
+
+.plan-card.profesional {
+    border-top: 5px solid #800080;
+}
+
+.plan-card.emprendedor {
+    border-top: 5px solid #ff69b4;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    .plans-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+/* Estilo del botón */
+
+.responsive-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    /* Azul brillante */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+/* Efecto al pasar el mouse */
+
+.responsive-button:hover {
+    background-color: #0de931;
+    /* Azul más oscuro */
+}
+
+
+/* Responsividad: cambiar tamaño en pantallas más pequeñas */
+
+@media (max-width: 768px) {
+    .responsive-a {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333232;
+    color: #bbb;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    text-align: left;
+}
+
+.footer-links div {
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+
+/* Container for plans */
+
+.plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* Plan Card Styles */
+
+.plan-card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+
+/* Header Label */
+
+.header-label {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+/* Highlight */
+
+.plan-card .highlight {
+    font-size: 1rem;
+    color: #ffd700;
+    margin: 10px 0;
+}
+
+.plan-card ul {
+    list-style: none;
+    margin: 15px 0;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.plan-card ul li {
+    margin: 8px 0;
+}
+
+.plan-card a {
+    display: block;
+    margin: 15px 0;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.price-section {
+    background-color: #0d0d0d;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.previous-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.current-price {
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Plan-specific colors */
+
+.plan-card.dinamico {
+    border-top: 5px solid #1e90ff;
+}
+
+.plan-card.esencial {
+    border-top: 5px solid #800080;
+}
+
+.plan-card.elemental {
+    border-top: 5px solid #32cd32;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    .plans-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
